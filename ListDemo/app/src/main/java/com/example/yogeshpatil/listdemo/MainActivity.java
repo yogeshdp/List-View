@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         myFriend.add("Jayesh");
         myFriend.add("Harsh");
         myFriend.add("Lavkesh");
-        myFriend.add("Rams");
-
+        myFriend.add("Ram");
+        myFriend.add("Nikhil");
 
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, myFriend);
         listView.setAdapter(arrayAdapter);
